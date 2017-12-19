@@ -11,7 +11,7 @@
 #include "images.h"
 #include "voices.h"
 
-#define DEBUG
+//#define DEBUG
 //#define MIRRORING
 
 //Initialize the arduboy object
