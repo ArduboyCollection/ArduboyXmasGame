@@ -23,6 +23,13 @@ Tinyfont tinyfont = Tinyfont(arduboy.sBuffer, Arduboy2::width(), Arduboy2::heigh
 const int EEPROM_START = EEPROM_STORAGE_SPACE_START + 100;
 GameState gameState = GameState::Splash;
 unsigned int currentLevel = 0;
+bool usedPieces[16], levelBoard[15][7], levelPiece[15][8];
+byte currentPieceSelection = 0, currentPiecePositionX = 0, currentPiecePositionY = 0, oldLoadedPiece = 0,
+     currentLevelWidth, currentLevelHeight, currentLevelTotalPieces, currentPieceWidth, currentPieceHeight,
+     currentPieceNumber,  boardInitialXPosition, boardInitialYPosition;
+int currentLevelPieceStartAddress;
+unsigned long timerExpireOn;
+const byte pieceWidthInPixels = 8, pieceHeightInPixels = 8;
 
 void setup() {
   arduboy.begin();

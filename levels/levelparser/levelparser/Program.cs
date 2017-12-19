@@ -12,11 +12,12 @@ namespace levelparser
 {
     class Program
     {
+        private static Random random;
+
         static void Main(string[] args)
         {
-            Environment.CurrentDirectory = @"C:\Users\erwin\Documents\GitHub\ArduboyXmasGame\levels\source";
             var randomSeed = 20171219;
-            var random = new Random(randomSeed);
+            random = new Random(randomSeed);
 
             var levels = new List<Level>();
             foreach (var img in Directory.GetFiles(".", "*.png"))
@@ -48,7 +49,8 @@ namespace levelparser
                             MarkPieceBlocksStartingFrom(++currentPiece, x, y, ref pieceMap, bmp);
 
                 Console.WriteLine(img);
-                //Print2DArray(pieceMap);
+                Print2DArray(pieceMap);
+                /*Console.Read();*/
 
                 // List unique pieces
                 for (var piece = 1; piece <= currentPiece; piece++)
@@ -91,7 +93,7 @@ namespace levelparser
             var pieces = new List<byte[]>();
 
             foreach (var level in levels)
-                foreach (var piece in level.Pieces.OrderBy(x => random.Next()).ToArray()) // Scramble pieces
+                foreach (var piece in level.Pieces) 
                 {
                     var data = piece.GetBytes();
 
@@ -150,7 +152,7 @@ namespace levelparser
                 level.Width,
                 level.Height
             };
-            foreach (var p in level.Pieces)
+            foreach (var p in level.Pieces.OrderBy(x => random.Next())) // Scramble
                 b.Add(FindIndex(p, pieces));
 
             return b;
