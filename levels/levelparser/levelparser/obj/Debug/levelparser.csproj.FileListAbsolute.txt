@@ -1,0 +1,19 @@
+D:\Erwin\OneDrive\Projects\Arduboy\ArduboyXmasGame\levels\levelparser\levelparser\bin\Debug\levelparser.exe.config
+D:\Erwin\OneDrive\Projects\Arduboy\ArduboyXmasGame\levels\levelparser\levelparser\bin\Debug\levelparser.exe
+D:\Erwin\OneDrive\Projects\Arduboy\ArduboyXmasGame\levels\levelparser\levelparser\bin\Debug\levelparser.pdb
+D:\Erwin\OneDrive\Projects\Arduboy\ArduboyXmasGame\levels\levelparser\levelparser\obj\Debug\levelparser.csprojResolveAssemblyReference.cache
+D:\Erwin\OneDrive\Projects\Arduboy\ArduboyXmasGame\levels\levelparser\levelparser\obj\Debug\levelparser.csproj.CoreCompileInputs.cache
+D:\Erwin\OneDrive\Projects\Arduboy\ArduboyXmasGame\levels\levelparser\levelparser\obj\Debug\levelparser.exe
+D:\Erwin\OneDrive\Projects\Arduboy\ArduboyXmasGame\levels\levelparser\levelparser\obj\Debug\levelparser.pdb
+C:\Users\erwin\Desktop\ArduboyXmasGame Working\levels\levelparser\levelparser\bin\Debug\levelparser.exe.config
+C:\Users\erwin\Desktop\ArduboyXmasGame Working\levels\levelparser\levelparser\bin\Debug\levelparser.exe
+C:\Users\erwin\Desktop\ArduboyXmasGame Working\levels\levelparser\levelparser\bin\Debug\levelparser.pdb
+C:\Users\erwin\Desktop\ArduboyXmasGame Working\levels\levelparser\levelparser\obj\Debug\levelparser.csprojResolveAssemblyReference.cache
+C:\Users\erwin\Desktop\ArduboyXmasGame Working\levels\levelparser\levelparser\obj\Debug\levelparser.exe
+C:\Users\erwin\Desktop\ArduboyXmasGame Working\levels\levelparser\levelparser\obj\Debug\levelparser.pdb
+C:\Users\erwin\Documents\GitHub\ArduboyXmasGame\levels\levelparser\levelparser\bin\Debug\levelparser.exe.config
+C:\Users\erwin\Documents\GitHub\ArduboyXmasGame\levels\levelparser\levelparser\bin\Debug\levelparser.exe
+C:\Users\erwin\Documents\GitHub\ArduboyXmasGame\levels\levelparser\levelparser\bin\Debug\levelparser.pdb
+C:\Users\erwin\Documents\GitHub\ArduboyXmasGame\levels\levelparser\levelparser\obj\Debug\levelparser.csprojResolveAssemblyReference.cache
+C:\Users\erwin\Documents\GitHub\ArduboyXmasGame\levels\levelparser\levelparser\obj\Debug\levelparser.exe
+C:\Users\erwin\Documents\GitHub\ArduboyXmasGame\levels\levelparser\levelparser\obj\Debug\levelparser.pdb
